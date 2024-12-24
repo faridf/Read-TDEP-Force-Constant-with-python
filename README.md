@@ -34,13 +34,13 @@ pip install numpy h5py matplotlib
 ## Data Structure
 
 The HDF5 file from TDEP contains:
-- `frequencies` (shape: [400, 645]): Phonon frequencies at each q-point
-- `eigenvectors_re` and `eigenvectors_im` (shape: [400, 645, 645]): Real and imaginary parts of eigenvectors
-- `group_velocities` (shape: [400, 645, 3]): Group velocities for each mode at each q-point
-- `q_values` (shape: [400]): Points along the chosen path in the Brillouin zone
-- `q_vector` (shape: [400, 3]): Q-point vectors
-- `q_ticks` (shape: [5]): Special points along the path
-- `site_projection_per_mode` (shape: [400, 645, 215]): Mode projections onto atomic sites
+- `frequencies`: Phonon frequencies at each q-point
+- `eigenvectors_re` and `eigenvectors_im`: Real and imaginary parts of eigenvectors
+- `group_velocities`: Group velocities for each mode at each q-point
+- `q_values`: Points along the chosen path in the Brillouin zone
+- `q_vector`: Q-point vectors
+- `q_ticks` : Special points along the path
+- `site_projection_per_mode`: Mode projections onto atomic sites
 
 ## Usage
 
